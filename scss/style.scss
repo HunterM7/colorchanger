@@ -1,0 +1,32 @@
+@import "_normalize";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+	height: 100vh;
+
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #f1f5f8;
+}
+
+.container h2 {
+	background-color: #222;
+	padding: 20px;
+	border-radius: 10px;
+
+	font-size: 32px;
+	color: #fff;
+
+	margin-bottom: 24px;
+}
+
+.color {
+	text-transform: uppercase;
+	color: #49a6e9;
+}
