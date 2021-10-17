@@ -15,6 +15,10 @@ body {
 	background-color: #f1f5f8;
 }
 
+.container {
+	text-align: center;
+}
+
 .container h2 {
 	background-color: #222;
 	padding: 20px;
@@ -29,4 +33,25 @@ body {
 .color {
 	text-transform: uppercase;
 	color: #49a6e9;
+}
+
+.btn {
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	color: #222;
+
+	padding: 8px;
+	border: 2px solid #222;
+	border-radius: 5px;
+
+	background-color: transparent;
+
+	cursor: pointer;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #222;
+	color: #fff;
 }
